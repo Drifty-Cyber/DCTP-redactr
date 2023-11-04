@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result|Redact</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="section2-container">
+      <main class="main">
+        <h2 class="section1-header my-2">RESULTS</h2>
+        <section class="desktop-wrapper">
+          <textarea id="redacted-result" rows="8"></textarea>
+          <section class="action2">
+            <p class="back" id="sendback-btn">
+              <img src="./img/Arrow - Left.svg" alt="" />
+              <span>Go Back</span>
+            </p>
+          </section>
+          <div>
+            <h3 class="stat-head">Stats</h3>
+            <section class="stat-container">
+              <div class="stat-word">
+                <p>Total message words</p>
+                <p id="messageWordNumber">25</p>
+              </div>
+              <div class="stat-word">
+                <p>Total redacted words</p>
+                <p id="redactedWordNumber">6</p>
+              </div>
+              <div class="stat-word">
+                <p>Total word matched</p>
+                <p id="matchword">6</p>
+              </div>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+    <div id="sendContainer" class="sendContainer">
+      <div class="popup">
+        <img src="img/done.svg" alt="tick-box" />
+        <h2>Message Sent!</h2>
+      </div>
+    </div>
+    <footer class="footer">
+      <p class="copyright">Made with ❤ by Drifty-Cyber</p>
+    </footer>
+    <script src="./hamburger.js"></script>
+    <script src="./resultpage.js"></script>
+  </body>
+</html>
